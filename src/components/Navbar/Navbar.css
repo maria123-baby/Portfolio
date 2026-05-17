@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+    top:0;
+    left:0;
+    width:100%;
+    padding: 25px 10%;
+    background: transparent;
+    
+    align-items: center;
+    z-index:100;
+}
+.navbar{
+    height:20px;
+    align-items: center;
+    display: flex;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(30,40,120);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition:.3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay:calc(.2s* var(--i));
+    margin-top: 10px;
+    align-items: center;
+}
+
+.navbar a:hover{
+    color:#0ef
+}
+html{
+    scroll-behavior: smooth !important;
+}

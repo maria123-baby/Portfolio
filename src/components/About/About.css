@@ -1,0 +1,38 @@
+#about{
+
+}
+.about-section{
+    background-image: url(../../assets/3.jpg);
+background-size: cover;
+position:relative;
+width:80%;
+align-items: center;
+    height: 600px;
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+.about-container{
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.about-content{
+    width:600px;
+    height:400px;
+    display: flex;
+    align-items: center;
+    margin-top:100px;
+    text-align:justify;
+}
+
+.about-section h2 {
+color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+p{
+    font-size:20px;
+}
