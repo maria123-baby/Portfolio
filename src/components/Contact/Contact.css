@@ -1,0 +1,30 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    background-image: url("../../assets/5.jpg");
+    
+}
+
+.contact-container h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-content{
+    margin-top:80px;
+}
+
+.contact-content p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info p{
+    margin: 10px 0;
+}

@@ -15,7 +15,7 @@ const [openProject, setOpenProject] = useState(null);
     {
       title: 'Movie Popularity Prediction',
       description:
-        'Developed a machine learning-based system to predict movie popularity and identify the target audience of an upcoming movie using pre-production data such as genre, cast, director, and plot. Implemented algorithms including KNN, XGBoost, and Fuzzy C-Means for prediction and audience classification.'
+        'Developed a machine learning-based system to predict popularity of an upcoming movie and identify its target audience using pre-production data such as genre, cast, director, and plot. Implemented algorithms including KNN, XGBoost, and Fuzzy C-Means for prediction and audience classification.'
     },
     {
       title: 'TODO',
@@ -28,7 +28,7 @@ const [openProject, setOpenProject] = useState(null);
    
    <section id="project" className="projects-section">
     <div className='project-container'>
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
 <div className='project-content'>
         {projects.map((project, index) => (
           <div key={index} className="project-card">

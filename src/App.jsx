@@ -6,6 +6,7 @@ import Skill from './components/Skill/Skill';
 import Navbar from './components/Navbar/Navbar';
 import './App.css'
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
             <Route path='/About' element={<About/>}/>
            <Route path='/Skill' element={<Skill/>}/>
            <Route path='/Project' element={<Project/>}/>
+           <Route path='/Contact' element={<Contact/>}/>
 
         </Routes>
        </Router>

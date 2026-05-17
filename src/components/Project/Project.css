@@ -5,11 +5,13 @@
 .projects-section {
 
 background-image: url(../../assets/5.jpg);
-background-size: cover;
+background-size: cover ;
 position:relative;
-width:80%;
-    height: 100vh;
-    padding-top:30px;
+margin-left: 14%;
+margin-right: 14%;
+width:72%;
+    height: 600px;
+    padding-top:20px;
     
 }
 .project-container{
@@ -20,9 +22,10 @@ width:80%;
    flex-direction: column;
 }
 .project-content{
-    
-    width:700px;
-    height:400px;
+  margin-top:20px;
+    color: black;
+    width:600px;
+    height:300px;
     
 }
 .projects-section h2 {
@@ -33,7 +36,7 @@ width:80%;
 
 /* Project Card */
 .project-card {
-  background-color: rgba(255,255,255,0.08);
+  background-color: rgba(233, 227, 227, 0.178);
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 15px;
@@ -43,7 +46,7 @@ width:80%;
 }
 
 .project-card:hover {
-  background-color: rgba(255,255,255,0.15);
+  background-color: rgba(230, 219, 219, 0.099);
 }
 
 /* Project Header */

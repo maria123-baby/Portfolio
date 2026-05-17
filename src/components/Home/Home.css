@@ -1,6 +1,5 @@
 *{
-    margin:0;
-    padding: 0;
+
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
@@ -45,12 +44,19 @@
     align-items: center;
     padding:70px 30% 0;
 }
-
+h1{
+    color:#41187f;
+}
 .home-content{
+    margin:10%;
+    margin-top: 100px;
+    align-items: center;
     max-width: 600px;
+    justify-content: space-between;
 }
 .home-content h3{
     font-size: 32px;
+    margin-top:10px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -62,7 +68,7 @@
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
-    margin:-3px 0;
+    margin:10px 0;
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
@@ -116,4 +122,35 @@
         opacity: 1;
     }
     
+}
+
+.resume-btn{
+    display: inline-block;
+    padding:10px 20px;
+    background-color: #2563eb;
+    color:white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10%;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+
+}
+.resume-btn:hover{
+    background-color: #1d4ed8;
+}
+.social-links a{
+    display: inline-block;
+    font-size: 26px;
+    color:rgb(69, 29, 89);
+    margin-right:-15px ;
+    margin-top: 20px;
+    transition: 0.3s;
+    margin-left: 40px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
+}
+.social-links:hover{
+    color: #0a1838;
 }
