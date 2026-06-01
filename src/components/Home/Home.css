@@ -1,5 +1,4 @@
 *{
-
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
@@ -48,8 +47,7 @@ h1{
     color:#41187f;
 }
 .home-content{
-    margin:10%;
-    margin-top: 100px;
+    margin-top: 150px;
     align-items: center;
     max-width: 600px;
     justify-content: space-between;
@@ -132,25 +130,39 @@ h1{
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
-    margin-top: 10%;
+    margin-top: 6%;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+    text-align: center;
 
 }
 .resume-btn:hover{
     background-color: #1d4ed8;
 }
+.social-links{
+    
+
+    margin: 10px;
+}
 .social-links a{
     display: inline-block;
     font-size: 26px;
     color:rgb(69, 29, 89);
-    margin-right:-15px ;
-    margin-top: 20px;
+    margin: 15px;
     transition: 0.3s;
-    margin-left: 40px;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
 }
 .social-links:hover{
     color: #0a1838;
+}
+
+@media screen and (max-width: 600px) {
+
+    .home {
+        width: 100%;
+    }
+    .home-content{
+        width: 100%;
+    }
 }

@@ -1,46 +1,77 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.header{
-    top:0;
-    left:0;
-    width:100%;
-    padding: 2px 5%;
-    padding-left:20px;
-    background: transparent;
-    
-    align-items: center;
-    z-index:300;
+html {
+    scroll-behavior: smooth;
 }
-.navbar{
-    height:10px;
-    align-items: center;
+
+/* Header */
+.header {
+    width: 100%;
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 5%;
+
+    box-sizing: border-box;
 }
-.navbar a{
-    display: inline-block;
-    font-size: 20px;
-    color: rgb(30,40,120);
+
+/* Logo */
+.header h2 {
+    color: rgb(30, 40, 120);
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    float: right;
+    flex-wrap: wrap;
+}
+
+/* Links */
+.navbar a {
+    font-size: 18px;
+    color: rgb(30, 40, 120);
+
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
-    transition:.3s;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
-    animation-delay:calc(.2s* var(--i));
-    margin-top: 10px;
-    align-items: center;
+
+    transition: 0.3s;
 }
-.header h2{
-    margin-left:10px;
-    color: rgb(30,40,120);
-    font-size: 35px;
+
+.navbar a:hover {
+    color: #0ef;
 }
-.navbar a:hover{
-    color:#0ef
-}
-html{
-    scroll-behavior: smooth !important;
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 15px;
+
+        padding: 15px;
+    }
+
+    .header h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .navbar {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
 }

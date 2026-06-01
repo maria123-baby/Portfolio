@@ -1,4 +1,5 @@
-import './Skill.css';
+import bgImage from '../../assets/4.jpg'
+import  './Skill.css';
 import { FaReact,FaPython, FaHtml5, FaCss3Alt} from 'react-icons/fa';
 import { SiAngular, SiNodedotjs,SiMongodb, SiJavascript, SiFirebase } from 'react-icons/si';
 export default function Skill(){
@@ -49,6 +50,7 @@ return (<section className="skills-section">
     </div>
 </div>
   </div>
+  
 </section>
 );}
    
