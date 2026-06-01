@@ -5,21 +5,10 @@
 .home{
     color:#41187f;
     background-image: url("../../assets/1.jpg");
-    background-position: center;
+    margin: 0;
     background-size:cover;
     background-repeat: no-repeat;
-}
-.header{
-
-    top:0;
-    left:0;
-    width:100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index:100;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -41,24 +30,24 @@
     height: 100vh;
     display:flex;
     align-items: center;
-    padding:70px 30% 0;
 }
 h1{
     color:#41187f;
 }
 .home-content{
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-left: 450px;
     align-items: center;
-    max-width: 600px;
-    justify-content: space-between;
+
 }
 .home-content h3{
     font-size: 32px;
-    margin-top:10px;
+    margin-top:80px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
+    margin: 20px 0;
 }
 .home-content h3 span{
     color:#0ef;
@@ -66,16 +55,16 @@ h1{
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
-    margin:10px 0;
     opacity: 0;
     animation: slideRight 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
+    margin: auto;
 }
 .home-content p{
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
 }
 @keyframes slideRight {
     0%{
@@ -130,21 +119,21 @@ h1{
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
-    margin-top: 6%;
+    margin-top: 2%;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
     text-align: center;
+    opacity: 0;
 
 }
 .resume-btn:hover{
     background-color: #1d4ed8;
 }
 .social-links{
-    
-
     margin: 10px;
 }
 .social-links a{
+    opacity: 0;
     display: inline-block;
     font-size: 26px;
     color:rgb(69, 29, 89);
@@ -161,8 +150,26 @@ h1{
 
     .home {
         width: 100%;
+        background-size:cover;
+        margin:0;
     }
     .home-content{
-        width: 100%;
+        width: 400px;
+        margin-left: 200px;
+        margin-top: 250px;
+        
+    }
+    .home-content h3{
+        font-size: 25px;
+    }
+    .home-content h1{
+        font-size: 45px;
+    font-weight: 600;
+    }
+    .home-content p{
+  font-size: 15px;
+    }
+    .resume-btn{
+        font-weight: 400;
     }
 }
